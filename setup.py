@@ -1,12 +1,14 @@
 from setuptools import find_packages, setup
 
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
 setup(
     name="fib_py",
     version="0.0.1",
     author="Ngakan Gandhi",
     author_email="n.nyoman.gandhi@gmail.com",
     description="Calculates a Fibonacci number",
-    long_description="A basic library that calculates Fibonacci numbers",
     long_description_content_type="text/markdown",
     url="https://github.com/GandhiNN/fib-py",
     install_requires=[],
