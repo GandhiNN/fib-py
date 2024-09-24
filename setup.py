@@ -20,7 +20,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'fib_number = fib_py.cmd.fib_numb:fib_numb',
+            'fib-number = fib_py.cmd.fib_numb:fib_numb',
         ],
     },
     python_requires='>=3',
